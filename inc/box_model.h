@@ -9,7 +9,7 @@
 
 typedef struct
 { /* data */
-    int unique_id;
+    int user_id;
     int length;
     int breadth;
     int height;
@@ -21,6 +21,6 @@ typedef struct
 struct Boxes *head; 
 
 void display(const Boxes *ptr);
-Boxes *addbox(Boxes *box_add, int number_of_boxes);
+Boxes *addbox(Boxes *box_add, int no_of_boxes);
 
 #endif
