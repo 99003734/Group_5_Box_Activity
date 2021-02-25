@@ -210,7 +210,7 @@ void UnityPrintNumberByStyle(const UNITY_INT number, const UNITY_DISPLAY_STYLE_T
                 UNITY_OUTPUT_CHAR('\\');
                 UNITY_OUTPUT_CHAR('n');
             }
-            /* unprintable characters are shown as codes */
+            /* unprintable characters are shown as the codes */
             else
             {
                 UNITY_OUTPUT_CHAR('\\');
