@@ -7,7 +7,7 @@
  * @brief calculates volume of box
  * 
  * @param box1 passes boxes
- * @return unsigned long volume of a single box
+ * @return unsigned long volume of a  single box
  */
 void Display(Box *box1);
 
