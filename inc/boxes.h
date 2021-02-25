@@ -16,7 +16,7 @@ typedef struct
     unsigned int length;
     unsigned int breadth;
     unsigned int height;
-    char color[50];
+    char colour[50];
     unsigned int weight;
 }Box;
 
