@@ -7,6 +7,7 @@ unsigned long volume_of_box(Boxes *box1)
     unsigned long volume;
     volume = (box1->length) * (box1->breadth) * (box1->height);
     return volume;
+    //volume of boxes
 }
 
 unsigned long avg_volume(Boxes *box1, unsigned int no_of_boxes)
@@ -22,4 +23,5 @@ unsigned long avg_volume(Boxes *box1, unsigned int no_of_boxes)
     }
     avg_volume = sum_volume / no_of_boxes;
     return avg_volume;
+    //average volume of boxes
 }
