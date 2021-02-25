@@ -12,7 +12,7 @@
 
 typedef struct
 {
-    unsigned int unique_id;
+    unsigned int user_id;
     unsigned int length;
     unsigned int breadth;
     unsigned int height;
@@ -27,6 +27,6 @@ typedef struct
  * @return all the boxes
  */
 
-Box* add_boxes(Box* box1,unsigned int number_of_boxes);
+Box* add_boxes(Box* box1,unsigned int no_of_boxes);
 
 # endif
