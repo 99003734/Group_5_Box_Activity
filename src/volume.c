@@ -9,17 +9,17 @@ unsigned long volume_of_box(Boxes *box1)
     return volume;
 }
 
-unsigned long avg_volume(Boxes *box1, unsigned int number_of_boxes)
+unsigned long avg_volume(Boxes *box1, unsigned int no_of_boxes)
     
 {
     unsigned long sum_volume = 0;
     unsigned long avg_volume = 0;
     Boxes *temp_box = box1;
-    for (int i = 0; i < number_of_boxes; i++)
+    for (int i = 0; i < no_of_boxes; i++)
     {
         sum_volume += volume_of_box(temp_box);
         temp_box++;
     }
-    avg_volume = sum_volume / number_of_boxes;
+    avg_volume = sum_volume / no_of_boxes;
     return avg_volume;
 }
