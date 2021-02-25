@@ -16,7 +16,7 @@ void displayall(Box *arrayOfBoxes,int n)
 {
     Box *boxcurr=arrayOfBoxes;
     for(int i=0;i<n;i++)
-    {
+    { 
         displayone(boxcurr++);
     }
 }
