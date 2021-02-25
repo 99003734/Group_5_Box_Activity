@@ -3,7 +3,7 @@
 # define _BOXES_H_
 
 /**
- * @brief Structure which holds information of unique_id,length,breadth,height,color,weight of every box
+ * @brief Structure which holds information of unique_id, length,breadth,height,color,weight of every box
  */
 
 typedef struct
