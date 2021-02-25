@@ -10,6 +10,7 @@ unsigned long volume_of_box(Boxes *box1)
 }
 
 unsigned long avg_volume(Boxes *box1, unsigned int number_of_boxes)
+    
 {
     unsigned long sum_volume = 0;
     unsigned long avg_volume = 0;
