@@ -5,7 +5,7 @@
 
 void displayone(Box *arrayOfBoxes)
 {  
-        printf("Unique ID - %d", arrayOfBoxes->unique_id);
+        printf("User ID - %d", arrayOfBoxes->user_id);
         printf("\nLength - %d", arrayOfBoxes->length);
         printf("\nBreadth - %d", arrayOfBoxes->breadth);
         printf("\nHeight - %d", arrayOfBoxes->height);
