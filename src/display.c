@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"add_last.h"
 #include<stdlib.h>
-#include"display.h"
+#include"disp.h"
 
 void displayone(Box *arrayOfBoxes)
 {  
