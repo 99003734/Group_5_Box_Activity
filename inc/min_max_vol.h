@@ -10,7 +10,7 @@
 unsigned long volume_of_box(Box *box1);
 
 
-unsigned long min_volume(Box *box1,const unsigned int number_of_boxes);
+unsigned long min_volume(Box *box1,const unsigned int no_of_boxes);
 /**
  * @brief Finds maximum volume of all the boxes
  * 
@@ -23,6 +23,6 @@ unsigned long min_volume(Box *box1,const unsigned int number_of_boxes);
  * @return unsigned long difference between maximum volume and minimum volume of all the boxes calculated
  */
 
-unsigned long difference_min_max_volume(Box *box1,const unsigned int number_of_boxes);
+unsigned long difference_min_max_volume(Box *box1,const unsigned int no_of_boxes);
 
 # endif
