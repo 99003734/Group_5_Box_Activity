@@ -3,8 +3,8 @@
 
 #include"boxmodel.h"
 
-unsigned long volume of box(Boxes *box1);
-unsigned long avg volume(Boxes *box1, unsigned int no_of_boxes);
+unsigned long volume_of_box(Boxes *box1);
+unsigned long avg_volume(Boxes *box1, unsigned int no_of_boxes);
 
 
 
