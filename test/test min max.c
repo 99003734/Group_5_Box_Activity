@@ -18,7 +18,7 @@ int main()
       printf("\nDifference between maximum and minimum volume : ");
       printf("%lu",diff);
 
-      //free(box1);
-     // box1=NULL;
+      //free(box1);..
+     // box1=NULL;..
       return 0; 
 }
