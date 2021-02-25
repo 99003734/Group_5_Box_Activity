@@ -1,4 +1,4 @@
-# include"min_max_volume.h"
+# include"min_max.h"
 # include"Boxes.h"
 # include<stdio.h>
 #include<stdlib.h>
@@ -42,7 +42,7 @@ unsigned long max_volume(Box *box1,const unsigned int number_of_boxes)
     return maximum_volume;
 }
 
-unsigned long difference_min_max_volume(Box *box1,const unsigned int number_of_boxes)
+unsigned long difference_min_max(Box *box1,const unsigned int number_of_boxes)
 {
     unsigned long minimum_volume=min_volume(box1,number_of_boxes);
     unsigned long maximum_volume=max_volume(box1,number_of_boxes);
