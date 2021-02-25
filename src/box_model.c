@@ -4,7 +4,7 @@
 
 void display(const Boxes *ptr)
 {
-    printf("Unique ID = %u\n", ptr->unique_id);
+    printf("Unique ID = %u\n", ptr->user_id);
     printf("Length = %u\n", ptr->length);
     printf("Breadth = %u\n", ptr->breadth);
     printf("height= %u\n", ptr->height);
@@ -12,14 +12,14 @@ void display(const Boxes *ptr)
     printf("Weight = %u\n", ptr->weight);
 }
 
-Boxes *addbox(Boxes *box_add, int number_of_boxes)
+Boxes *addbox(Boxes *box_add, int no_of_boxes)
 {
     printf("Enter the number of boxes you want to add: ");
-    scanf("%d", &number_of_boxes);
-    for (int i = 0; i < number_of_boxes; i++)
+    scanf("%d", &no_of_boxes);
+    for (int i = 0; i < no_of_boxes; i++)
     {
         printf("\nEnter the unique id of the box : ");
-        scanf("%u", box_add->unique_id);
+        scanf("%u", box_add->user_id);
 
         printf("\nEnter Length for the box : ");
         scanf("%u", box_add->length);
