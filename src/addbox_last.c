@@ -7,7 +7,7 @@ Box* add(Box *arrayOfBoxes,int n)
    int i;
     for(i = 0; i<n; i++)
      {
-        printf("\nEnter Unique ID:");
+        printf("\nEnter User ID:");
         scanf("%d",&arrayOfBoxes[i].unique_id);
         printf("\nEnter length:");
         scanf("%d",&arrayOfBoxes[i].length);
