@@ -10,12 +10,12 @@ unsigned long volume_of_box(Box *box1)
     return volume;
 }
 
-unsigned long min_volume(Box *box1,const unsigned int number_of_boxes)
+unsigned long min_volume(Box *box1,const unsigned int no_of_boxes)
 {
     Box *temp_box=box1;
     unsigned long minimum_volume=volume_of_box(temp_box);
     temp_box++;
-    for(int i=0;i<number_of_boxes;i++)
+    for(int i=0;i<no_of_boxes;i++)
     {
         if(minimum_volume > volume_of_box(temp_box))
         {
@@ -27,12 +27,12 @@ unsigned long min_volume(Box *box1,const unsigned int number_of_boxes)
     return minimum_volume;
 }
 
-unsigned long max_volume(Box *box1,const unsigned int number_of_boxes)
+unsigned long max_volume(Box *box1,const unsigned int no_of_boxes)
 {
     Box *temp_box=box1;
     unsigned long maximum_volume=volume_of_box(temp_box);
     temp_box++;
-    for(int i=0;i<number_of_boxes;i++)
+    for(int i=0;i<no_of_boxes;i++)
     {
         if(maximum_volume < volume_of_box(temp_box))
         {
@@ -42,10 +42,10 @@ unsigned long max_volume(Box *box1,const unsigned int number_of_boxes)
     return maximum_volume;
 }
 
-unsigned long difference_min_max(Box *box1,const unsigned int number_of_boxes)
+unsigned long difference_min_max(Box *box1,const unsigned int no_of_boxes)
 {
-    unsigned long minimum_volume=min_volume(box1,number_of_boxes);
-    unsigned long maximum_volume=max_volume(box1,number_of_boxes);
+    unsigned long minimum_volume=min_volume(box1,no_of_boxes);
+    unsigned long maximum_volume=max_volume(box1,no_of_boxes);
 
     unsigned long difference_in_volume= maximum_volume-minimum_volume;
 
